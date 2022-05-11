@@ -1,0 +1,58 @@
+        body {
+        color: aquamarine ;
+        font-size: 16px;
+        font-weight: 500;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+        }
+        
+        .avatar {
+            border-radius: 70%;
+        box-shadow: 4px 4px 14 px rgba(red, green, blue, alpha);
+        }
+
+        .info p {
+            margin: 0%;
+            color: aliceblue;
+            font-style: italic;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+    .social { 
+        background:red ;
+        max-width: 74%;
+        padding: 15px;
+        padding-top: 15px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        padding-left: 30px;    
+        border: 15px;
+        border: 5px solid red;
+    border-bottom-style: dotted ;
+    border-top-width: 30px;
+    border-right-color: blue ;
+    }
+    
+    a {
+        color: rgb(0, 0, 0);
+        text-decoration: antiquewhite;
+    }
+    a:hover {
+        text-decoration:underline;
+    }
+    a:active {
+        color: blueviolet;
+    }
+    a:visited {
+        color: grey;
+    }
+    .info {
+        display: flex;
+        margin-bottom: 20px ;
+    }
+    @media (max-width 700px){
+        .info {
+            text-align: center;
+            display: block;
+        }
+    }
